@@ -11,8 +11,7 @@ except ValueError:
 except ZeroDivisionError:
     print("Cannot divide by zero.")
 
-except Exception as e:
-    print("An error occurred:", str(e))
+
 
 finally:
     print("Exception handling example completed.")
